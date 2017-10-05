@@ -4,9 +4,9 @@
 
 So quick review on collisions, we've covered:
 
-1. distance < half widths  
+1. Distance < half widths  
 ![](distance_width.gif). 
-2. standard box-box collision (AABB)
+2. Standard box-box collision (AABB)
 (gif coming soon)
 3. The pixel perfect [Duck Hunt](https://www.youtube.com/watch?v=-1NyIsZXeqU)-style detection (gif coming soon)
 
@@ -14,7 +14,8 @@ So quick review on collisions, we've covered:
 
 ## Map Collisions
 
-Now how about colliding with what we have drawn on the map?  
+Now how about colliding with what we have drawn on the map? 
+
 We could so for each moving object go through each map sprite and and do box-box collision on the two, but that'd be a lot of checks!  
 
 PICO-8 has some convenient functions that let us do collisions with the map a little more easily.  
